@@ -1,10 +1,9 @@
 #
 
-
 import math
 import sys
 import random
-from PIL import Image, ImageDraw;
+from PIL import Image, ImageDraw
 
 def drawFractal(image, x1, y1, angle, depth, size, factor,color):
     if(depth > 0):
